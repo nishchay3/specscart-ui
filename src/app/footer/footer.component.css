@@ -1,0 +1,58 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #321940;
+    color: white;
+    text-align: center;
+    padding-block: 3vh;
+    padding-inline: 6vw;
+  }
+
+  .footer-img {
+    width: 120px;
+  }
+
+  .horz-line {
+    height: 2px;
+    color: white;
+    opacity: 1;
+  }
+
+  .para {
+    text-align: left;
+  }
+
+  .para1 {
+    text-align: left;
+    float: left;
+  }
+
+  .para2 {
+    float: right;
+  }
+
+  .list {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+  }
+
+  .list > li {
+    font-size: 12px;
+    margin-block: 12px;
+  }
+
+  .hyper {
+    text-decoration: none;
+    color: white;
+  }
+
+  .hyper:hover {
+    color: #26b3a3;
+  }
+
+  .news-btn {
+    background-color: aqua;
+  }
