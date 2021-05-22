@@ -173,13 +173,40 @@
 }
 
 .try-button1 {
-    margin-right: 2vw;
+    margin-right: 1vw;
     width: 10vw;
     border-radius: 30px;
 }
 
 .try-button2 {
+    margin-left: 1vw;
     width: 10vw;
-    background-color: #26b3a3;
     border-radius: 30px;
+    background-color: #26b3a3;
+}
+
+.fourth {
+    margin-bottom: 20vh;
+}
+
+.fifth {
+    margin-top: 20vh;
+}
+
+.fifth-col1 {
+    padding-left: 10vw;
+}
+
+.para-color {
+    color: #999;
+}
+
+.rew-1 {
+    width: 5vw;
+    height: 5vw;
+}
+
+.rew-2 {
+    width: 7vw;
+    height: 7vw;
 }
