@@ -146,3 +146,40 @@
     position: relative;
 }
 
+.third {
+    margin-inline: 10vw;
+    margin-top: 24vh;
+    margin-bottom: 27vh;
+}
+
+.fourth-col1 {
+    padding-left: 15vw;
+}
+
+.fourth-col2 {
+    padding-right: 14vw;
+}
+
+.specsimg {
+    width: 33vw;
+}
+
+.color-picker {
+    margin-inline: 0.5vw;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.try-button1 {
+    margin-right: 2vw;
+    width: 10vw;
+    border-radius: 30px;
+}
+
+.try-button2 {
+    width: 10vw;
+    background-color: #26b3a3;
+    border-radius: 30px;
+}
