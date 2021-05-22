@@ -1,0 +1,115 @@
+.cont-margin {
+    
+}
+
+.first {
+    background: url("../../assets/Banner.jpg") center / cover no-repeat;
+}
+
+.try-col {
+    padding-block: 12vh;
+    padding-left: 12vw;
+}
+
+.no-bottom{
+    margin-bottom: 0;
+}
+
+.head-1{
+    opacity: 1;
+    animation: head-ani 1s;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes head-ani {
+    /* You could think of as "step 1" */
+    0% {
+        opacity: 0;
+    }
+    /* You could think of as "step 2" */
+    100% {
+        opacity: 1;
+    }
+  }
+
+.head-2{
+    opacity: 1;
+    animation: head-ani 1s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+}
+
+.head-3{
+    opacity: 1;
+    animation: head-ani 1s;
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
+}
+
+.img-1{
+    position: relative;
+    height: 20vh;
+    top: 8vh;
+    left: -2vw;
+    animation: image-ani-1 1s;
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes image-ani-1 {
+    /* You could think of as "step 1" */
+    0% {
+        left: -69vw;
+    }
+    /* You could think of as "step 2" */
+    100% {
+        left: -2vw;
+    }
+  }
+
+.img-2{
+    position: relative;
+    height: 37vh;
+    top: -14vh;
+    left: 2vw;
+    animation: image-ani-2 1s;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes image-ani-2 {
+    /* You could think of as "step 1" */
+    0% {
+        top: -70vh;
+    }
+    /* You could think of as "step 2" */
+    100% {
+        top: -14vh;
+    }
+  }
+
+.img-3{
+    position: relative;
+    height: 21vh;
+    top: -29vh;
+    left: -3vw;
+    animation: image-ani-3 1s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes image-ani-3 {
+    /* You could think of as "step 1" */
+    0% {
+        top: 36vh;
+    }
+    /* You could think of as "step 2" */
+    100% {
+        top: -29vh;
+    }
+  }
+
+.height{
+    height: 51vh;
+}
