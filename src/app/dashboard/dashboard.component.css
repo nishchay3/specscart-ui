@@ -92,7 +92,7 @@
 
 @keyframes image-ani-3 {
     0% {
-        top: 36vh;
+        top: -6vh;
     }
     100% {
         top: -29vh;
@@ -101,6 +101,7 @@
 
 .height{
     height: 51vh;
+    overflow-y: clip;
 }
 
 .lenses-col {

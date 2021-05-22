@@ -7,16 +7,30 @@
     margin-inline: 6vw;
 }
 
-.brand-logo{
-position: absolute;
-z-index: 10;
-left: 45vw;
-padding: 0;
-top: 0;
+@media only screen and (min-width: 992px){
+    .brand-logo{
+        position: absolute;
+        z-index: 10;
+        left: 42vw;
+        padding: 0;
+        top: 0;
+        }
+    .brand-image{
+            width: 232px;
+        }
 }
 
-.brand-image{
-    width: 27vh;
+@media screen and (max-width: 991px){
+    .brand-logo{
+        position: absolute;
+        z-index: 10;
+        left: 6vw;
+        padding: 0;
+        top: 0;
+        }
+    .brand-image{
+            width: 127px;
+        }
 }
 
 .top-nav > span > a {
