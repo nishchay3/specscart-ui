@@ -145,6 +145,33 @@
         top: -20vw !important;
         left: -8vw !important;
     }
+    .rew-1 {
+        width: 11vw !important;
+    }
+    .rew-2 {
+        width: 15vw !important;
+    }
+    .g1head {
+        display: none;
+    }
+    .deskp {
+        display: none;
+    }
+    .g1image {
+        top: 3vh !important;
+    }
+    .desk4image {
+        bottom: 4vh !important;
+    }
+    .g1mob1 {
+        display: block !important;
+    }
+    .g1mob2 {
+        display: block !important;
+    }
+    .third {
+        margin-block: 9vh !important;
+    }
 }
 
 .lenses-col {
@@ -155,25 +182,36 @@
 
 .third {
     margin-inline: 10vw;
-    margin-top: 24vh;
-    margin-bottom: 27vh;
+    margin-block: 25vh;
+}
+
+.g1 {
+    padding-inline: 8vw;
     background: url("../../assets/Parallaxbackground.jpg") center / cover no-repeat;
 }
 
-.pad-third-col {
-    padding-left: 8vw;
+.pad-third-col-1 {
     padding-top: 8vh;
-    height: 75vh;
+}
+
+.pad-third-col-2 {
+    /* padding-top: 8vh; */
+    /* height: 75vh; */
+}
+
+.g1mob1 {
+    display: none;
+}
+
+.g1mob2 {
+    display: none;
 }
 
 .g1head {
     color: white;
-    top: 5vh;
-    position: relative;
 }
 
 .g1image {
-    width: 54vh;
     top: 11vh;
     position: relative;
 }
@@ -185,15 +223,8 @@
 }
 
 .desk4image {
-    width: 54vh;
     bottom: 13vh;
     position: relative;
-}
-
-.third {
-    margin-inline: 10vw;
-    margin-top: 24vh;
-    margin-bottom: 27vh;
 }
 
 .fourth-col1 {
