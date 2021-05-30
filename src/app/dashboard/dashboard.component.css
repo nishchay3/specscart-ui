@@ -248,12 +248,11 @@
     border-radius: 50%;
 }
 
-.play-button > p {
+.play-button > img {
+    width: 10px;
     position: relative;
-    top: -4px;
-    left: -3px;
-    color: white;
-    font-size: 12px;
+    top: -8px;
+    left: -4px;
 }
 
 .try-button1 {
