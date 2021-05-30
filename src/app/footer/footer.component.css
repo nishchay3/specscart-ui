@@ -19,19 +19,6 @@
     opacity: 1;
   }
 
-  .para {
-    text-align: left;
-  }
-
-  .para1 {
-    text-align: left;
-    float: left;
-  }
-
-  .para2 {
-    float: right;
-  }
-
   .list {
     list-style-type: none;
     padding-left: 0;
@@ -54,4 +41,17 @@
 
   .news-btn {
     background-color: #26b3a3;
+  }
+
+  .social {
+    width: 36px;
+  }
+
+  @media screen and (max-width: 767px) {
+    .list {
+      display: none !important;
+    }
+    .display-none {
+      display: none;
+    }
   }
