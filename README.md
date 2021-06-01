@@ -1,7 +1,7 @@
 # SpecscartUi
 
 Live Demo: https://jolly-wing-3b23ba.netlify.app/ <br/>
-This is a responsive UI project based on an eyecare shopping web application generated with [Angular CLI] version 11.2.12. <br/>
+This is a responsive UI project based on an eyecare shopping web application generated with [Angular CLI] version 11.2.12 and Bootstrap version 5.0.1. <br/>
 Compatiable with any desktop and mobile screen. Enjoy the responsive UI experience.
 
 ## Development server
